@@ -1,0 +1,377 @@
+.borderBox {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.HeaderWrapper {
+  width: 100%;
+}
+.HeaderWrapper .header {
+  padding: 10px 45px;
+}
+.HeaderWrapper .header .Logo,
+.HeaderWrapper .header .Nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.HeaderWrapper .header .Logo {
+  height: 52px;
+}
+.HeaderWrapper .header .Nav {
+  width: calc(100% - 209px);
+  text-align: right;
+}
+.HeaderWrapper .header .Nav .btn {
+  text-transform: initial;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-right: 20px;
+  font-size: 14px;
+  color: black;
+}
+.HeaderWrapper .header .Nav .btn:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.HeaderWrapper .header .Nav .btn:first-child {
+  border: none;
+  box-shadow: none;
+}
+.Home {
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/home/dawn-nature-sunset-trees.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.Home .Home_header {
+  padding: 30px 45px;
+}
+.Home .Home_header .Logo,
+.Home .Home_header .Nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.Home .Home_header .Nav {
+  width: calc(100% - 313px);
+  text-align: right;
+}
+.Home .Home_header .Nav .btn {
+  text-transform: initial;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.Home .Home_header .Nav .btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.Home .Home_header .Nav .btn:first-child {
+  border: none;
+  text-decoration: underline;
+  box-shadow: none;
+}
+.Home .Home_body {
+  height: calc(100% - 148px - 50px);
+}
+.Home .Home_body .Home_form_and_text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Home .Home_body .Home_form_and_text .Home_form {
+  margin: auto;
+  width: 500px;
+  padding: 10px 20px 20px 20px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_connexion .generic-input {
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin-right: 20px;
+  font-size: 16px;
+  color: #FFF;
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_connexion .generic-input input {
+  border-bottom-color: #FFF;
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_connexion .generic-input input:focus {
+  box-shadow: 0 1px 0 0 #FFF;
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_connexion .generic-input label {
+  color: #FFF;
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_connexion .btn {
+  width: calc(33.33%);
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_inscription {
+  text-align: right;
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_inscription .Login_subscribe_text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #FFF;
+  margin-right: 20px;
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_inscription .Login_subscribe_text:hover {
+  text-decoration: underline;
+}
+.Home .Home_body .Home_form_and_text .Home_form .Home_form_inscription .btn {
+  width: 153.31px;
+}
+.Home .Home_body .Home_form_and_text .Home_body_text {
+  margin: auto;
+  width: 60%;
+  font-size: 20px;
+  color: #FFF;
+  text-align: center;
+  margin-top: 20px;
+}
+.Home .Home_footer {
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.Home .Home_footer .Home_footer_link {
+  margin-right: 20px;
+  color: #FFF;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.Connexion body {
+  background-color: #D6D6D6;
+}
+.Connexion body .card-panel {
+  margin-top: 20px;
+}
+.Connexion body .card-panel form {
+  background-color: #fff;
+  padding-top: 10px;
+}
+.Connexion body .card-panel form .btn {
+  float: initial;
+}
+.Connexion body .card-panel form .form-footer {
+  border-top: 1px solid #fff;
+}
+.Inscription .container .card-panel {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+}
+.Inscription .container .card-panel button {
+  margin-top: 25px;
+}
+.Inscription .container .card-panel [type="checkbox"] + label {
+  line-height: 14px;
+}
+.Inscription .container h2 {
+  margin: 0px;
+}
+.Inscription .container .row .link a,
+.Inscription .container .row .link strong {
+  vertical-align: middle;
+}
+.Dashboard .Dashboard_nav,
+.Dashboard .Children {
+  display: inline-block;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.Dashboard .Dashboard_nav {
+  width: 250px;
+  margin: 0px;
+  height: 100%;
+  font-size: 16px;
+  -moz-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=rgba(0, 0, 0, 0.4), Direction=90, Strength=5);
+  position: relative;
+  background-color: #694f4f;
+}
+.Dashboard .Dashboard_nav .sideTitle i,
+.Dashboard .Dashboard_nav .Dashboard_nav_item i {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.Dashboard .Dashboard_nav .sideTitle .Text,
+.Dashboard .Dashboard_nav .Dashboard_nav_item .Text {
+  vertical-align: middle;
+}
+.Dashboard .Dashboard_nav .sideTitle {
+  padding: 20px;
+  border-bottom: 1px solid #E5E5E5;
+  color: #FFF;
+}
+.Dashboard .Dashboard_nav .Dashboard_nav_item a {
+  padding: 10px 20px;
+  color: #FFF;
+  width: 100%;
+}
+.Dashboard .Children {
+  width: calc(100% - 250px);
+  background-color: #F1F1F1;
+  height: 100%;
+  padding: 40px;
+  overflow-y: scroll;
+}
+.buttonDelete {
+  margin-left: 15px;
+}
+.Applications a {
+  color: #000;
+}
+.AddApplication {
+  padding: 10px 40px;
+}
+.Produit {
+  background-color: #f7f6f6;
+}
+.Produit .content {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+}
+.Produit .row.spec {
+  margin-left: 0px !important;
+  margin-right: -17px !important;
+  margin-top: 0px !important;
+}
+.Produit .responsive-img-produit {
+  width: 100%;
+}
+.Produit .sep {
+  height: 3%;
+}
+.Produit .title {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Produit .texte {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Profil .container {
+  height: 100%;
+}
+.Profil .container .card-panel {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.26);
+}
+.Profil .container h2 {
+  margin: 0px;
+}
+.Profil .container .row .link a,
+.Profil .container .row .link strong {
+  vertical-align: middle;
+}
+.FAQ .container {
+  height: 100%;
+}
+.FAQ .container h2 {
+  margin: 0px;
+}
+.FAQ .container .paddingCollapsibleBody {
+  padding: 13px;
+}
+#modalpayement {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.modal-content {
+  width: 50%;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 30px;
+}
+.modal-content span {
+  text-align: center;
+}
+.modal-content .submit {
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+html,
+body,
+.Wrapper {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+}
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header {
+  padding: 15px 45px;
+  background-image: url('../images/home/dawn-nature-sunset-trees.jpg');
+  background-position: 50%;
+  position: relative;
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=rgba(0, 0, 0, 0.4), Direction=180, Strength=5);
+}
+.header .Logo,
+.header .Nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header .Nav {
+  width: calc(100% - 209px);
+  text-align: right;
+}
+.header .Nav .btn {
+  text-transform: initial;
+  background-color: transparent;
+  border: 1px solid #FFF;
+  margin-right: 20px;
+  font-size: 14px;
+  color: #FFF;
+}
+.header .Nav .btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header .Nav .btn:first-child {
+  border: none;
+  text-decoration: underline;
+  box-shadow: none;
+}
+.footer {
+  width: 100%;
+  background-image: url('../images/home/dawn-nature-sunset-trees.jpg');
+  background-position: 0px 100%;
+  padding: 30px;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footer .footer_link {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: underline;
+}
+.Loader img {
+  display: block;
+  margin: auto;
+}
