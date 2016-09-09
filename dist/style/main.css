@@ -132,7 +132,9 @@
 .Home .Home_footer {
   height: 50px;
   padding: 10px;
+  position: absolute;
   text-align: center;
+  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -259,6 +261,37 @@
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+.Users .title {
+  margin-bottom: 20px;
+}
+.Users .actionBtn {
+  display: inline-flex;
+}
+.Users #modalusers {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0px;
+  left: 0px;
+}
+.Users .modal-content {
+  width: 65%;
+  background-color: white;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 30px;
+}
+.Users .modal-content span {
+  text-align: center;
+}
+.Users .modal-content .submit {
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 .Profil .container {
   height: 100%;
